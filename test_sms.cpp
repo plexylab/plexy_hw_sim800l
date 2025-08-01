@@ -39,7 +39,7 @@ void setup() {
   Serial.begin(9600);        // Para depuración desde el monitor serial
   sim800l.begin(9600);       // Velocidad por defecto del SIM800L
 
-  delay(1000);
+  delay(5000);
   Serial.println("Iniciando SIM800L...");
 
   // Comandos de inicialización
